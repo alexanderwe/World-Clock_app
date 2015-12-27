@@ -1,0 +1,56 @@
+body{
+    background-color: #80d4ea;
+}
+
+html, body { height: 100%; padding: 0; margin: 0; }
+section { width: 50%; height: 50%; float: left; }
+#section1 { background: #00BCD4; }/*Berlin*/
+#section2 { background: #FF9800; }/*New York*/
+#section3 { background: #F44336; }/*Tokyo*/
+#section4 { background: #00C853; }/*Sydney*/
+
+.centered {
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  position: relative;
+  margin-top:10px;
+}
+
+.day{
+    height: 100px;
+    width: 100%;
+    font-family: courier, monospace;
+    text-align:center;
+    color:white;
+    font-size:60px;
+    margin-bottom: -50px;
+}
+
+.date{
+    height: 100px;
+    width: 100%;
+    font-family: courier, monospace;
+    text-align:center;
+    color:white;
+    font-size:50px;
+}
+
+.clock{
+    height: 100px;
+    width: 100%;
+    font-family: courier, monospace;
+    text-align:center;
+    color:white;
+    font-size:50px;
+}
+
+.location{
+    height: 100px;
+    width: 100%;
+    font-family: courier, monospace;
+    text-align:center;
+    color:white;
+    font-size:70px;
+}
